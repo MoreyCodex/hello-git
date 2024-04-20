@@ -1,0 +1,12 @@
+[user]
+	email = moreydevoloper@gmail.com
+	name = MoreyCodex
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	tree = log --graph --decorate --all --oneline
+
+**/.DS_Store
